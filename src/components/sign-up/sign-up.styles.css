@@ -1,0 +1,96 @@
+#sign-up {
+    position:absolute;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vh;
+      width: 100vw;
+      /* top: 10%; */
+      z-index: 10;
+      /* background-color: #ffffff80; */
+}
+template#sign-up .content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--normalwhite);
+    box-shadow: 1px 1px 6px #aaaaaa;
+}
+#sign-up img{
+    width: 25vw;
+    height: 80vh;
+    object-fit: cover;
+  }
+#sign-up .inner-block1,
+#sign-up .inner-block2{
+    display: block;
+  }
+#sign-up .inner-block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px 35px;
+    width: 28vw;
+  }
+#sign-up .inner-block2 .box-1{
+    /* width: 100%; */
+    margin-bottom: 20px;
+}
+#sign-up .inner-block2 .box-1 span:first-child{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#sign-up .inner-block2 .box-1 span:last-child{
+    display: block;
+    font-size: 12.5px;
+    letter-spacing: 0.8px;
+    line-height: 25px;
+}
+#sign-up .inner-block2 .box-2{
+    width: 100%;
+}
+#sign-up .inner-block2 .box-2 .radio-div{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+#sign-up .inner-block2 .box-2 .radio-div div:first-child{
+    margin-right: 20px;
+}
+#sign-up .inner-block2 .box-2 .radio-div input:first-child{
+    margin-right: 12px;
+}
+#sign-up .inner-block2 .box-2 form{
+}
+#sign-up .inner-block2 .box-2 form .top {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+
+#sign-up .cancel{
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
+    color:rgb(17, 17, 17);
+    cursor: pointer;
+    transition: transform 1s ease;
+  }
+#sign-up .cancel:hover{
+    transform: rotate(90deg);
+    /* transform: scale(5); */
+  }
+
+

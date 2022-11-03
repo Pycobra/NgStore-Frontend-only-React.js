@@ -1,0 +1,38 @@
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    border-radius:5px;
+    font-size:1rem;
+    font-weight:normal;
+    cursor: pointer;
+    font-family: 'Open Sans Condensed';
+    color:var(--normalwhite);
+    background-color:var(--normalorange);
+    border:none;
+}
+.custom-button.shop-now-btn{
+  height:50px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius:0;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.9);
+  background-color:var(--normalblack);
+}
+.custom-button.text-alone{
+  border:none;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: bold;
+}
+.custom-button.border-type{
+  height:50px;
+  width: 50%;
+  margin-top: 10px;
+  border-radius:0;
+  box-shadow:2px 2px 12px rgba(15, 11, 11, 0.9);
+  background-color:var(--normalwhite);
+  border: 1px solid var(--normalblack);
+  color: var(--normalblack);
+}

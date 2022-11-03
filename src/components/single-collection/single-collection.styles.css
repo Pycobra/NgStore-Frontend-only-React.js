@@ -1,0 +1,90 @@
+template#single-collection{
+  position:absolute;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    padding: 20px;
+  }
+  template#single-collection .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* width:10vh; */
+    /* background-color: #717171; */
+    background-color: var(--normalwhite);
+    padding: 10px;
+    box-shadow: 1px 1px 6px #aaaaaa;
+  }
+#single-collection img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+#single-collection .inner-block1,
+#single-collection .inner-block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+#single-collection .inner-block2{
+    margin: 0 10px;
+  }
+#single-collection .inner-block2 .image{
+    margin: 0;
+    overflow: hidden;
+  }
+#single-collection .inner-block2:last-child .image{
+  }
+  #single-collection .content .inner-block2 img{
+  border-radius: 100px 100px 0 0;
+  height:240px;
+  transition: all 1s ease;
+}
+#single-collection .inner-block2 img:hover{
+    transform: scale(1.5);
+  }  
+#single-collection .inner-block2 .img-text{
+    width: 200px;
+    height:80px;
+    background-color:white;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: .5px;
+  }
+  .item-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  /* template.click .cancel{
+    font-size: 40px;
+    margin-left: 20px;
+    color:rgb(17, 17, 17);
+    cursor: pointer;
+    transition: transform 0.6s ease;
+  }
+  template.click .cancel:hover{
+    transform: rotateX('90%');
+  } */
+
+  #single-collection .cancel{
+    font-size: 40px;
+    margin-left: 20px;
+    color:rgb(17, 17, 17);
+    cursor: pointer;
+    transition: transform 1s ease;
+  }
+  #single-collection .cancel:hover{
+    transform: rotate(90deg);
+    /* transform: scale(5); */
+  }
+
+

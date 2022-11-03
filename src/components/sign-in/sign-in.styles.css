@@ -1,0 +1,82 @@
+#sign-in{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--normalblack);
+    background-color: var(--lightgrey);
+
+}
+#sign-in .content{
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+#sign-in .content .head{
+    font-size: 20px;
+}
+#sign-in .content .block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sign-in .block .inner-block1,
+#sign-in .block .inner-block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--normalwhite);
+    padding: 30px;
+    height:400px;
+    width: 48%;
+}
+#sign-in .block .inner-block1 p{
+    width: 100%;
+    text-align: right;
+    font-size:12px;
+    padding: 0;
+    margin: 0;
+    color:rgb(150, 146, 146);
+}
+#sign-in .block .inner-block1 span{
+    font-size:12px;
+    color:rgb(150, 146, 146);
+    text-decoration: underline;
+}
+#sign-in .block .inner-block1 form{
+    width: 100%;
+}
+#sign-in .block .inner-block1 form input{
+    margin-top: 35px;
+}
+#sign-in .block .inner-block1 form input[name='gender']{
+    margin-top: 0;
+}
+#sign-in .block button{
+    margin: 35px 0;
+}
+#sign-in .block .inner-block2 button:hover{
+    background-color: var(--normalblack);
+    border: 1px solid var(--normalwhite);
+    color: var(--normalwhite);
+}
+#sign-in .block .inner-block1 button:hover{
+    background-color: var(--normalwhite);
+    border: 1px solid var(--normalblack);
+    color: var(--normalblack);
+}
+
+
+#sign-in .block .inner-block2 div{
+    font-size:14px;
+    letter-spacing: 1px;
+}
+
+
+
+

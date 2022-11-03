@@ -1,0 +1,61 @@
+.header-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    background-color: var(--normalblack);
+    padding: 5px;
+    z-index: 2;
+    /* height: 20%; */
+}
+.header-1 .main-box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:95%;
+}
+.header-1 .main-box .place-1,
+.header-1 .main-box .place-2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.header-1 .main-box .place-2{
+    display: none;
+    color: var(--normalwhite);
+}
+.header-1 .main-box .place-2 .box-1{
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.header-1 .main-box .sellpage{
+    /* font-family: RoadTest;
+    font-style: oblique; */
+    font-weight: bold;
+    color: var(--normalwhite);
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:950px){
+    .header-1 .main-box .place-1,
+    .header-1 .main-box .place-2{
+        margin-left: 30%;
+    }
+    .header-1 .main-box .place-2{
+        display: block;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:768px){
+    .header-1 .main-box .place-2{
+        display: none;
+    }
+    .header-1 .main-box .place-1,
+    .header-1 .main-box .place-2{
+        margin-left: 0;
+    }
+}

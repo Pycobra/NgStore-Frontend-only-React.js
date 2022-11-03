@@ -1,0 +1,50 @@
+template#search-hover{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    /* top: 20vh; */
+    left: 0;
+    padding: 70px 0;
+    background-color:var(--normalwhite);
+
+}  
+template#search-hover .content{
+    width: 55%;
+}  
+template#search-hover .content .block1{
+    margin: 20px 0 50px 0;
+} 
+template#search-hover .content .block1 span{
+    margin: 7px;
+    font-size: 18px;
+} 
+template#search-hover .content .block1 span:hover{
+    border-bottom: 1px solid var(--normalblack);
+    padding-bottom: 5px;
+    font-weight:bold;
+    font-size: 20px;
+} 
+template#search-hover .content form{
+    position: relative;
+    margin-bottom: 100px;
+}
+template#search-hover .content form .search-icon{
+    position: absolute;
+    top: -7px;
+    right: 0;
+}
+template#search-hover .content p{
+    font-weight: bold;
+    font-size: 12px;
+    color: var(--sub-color);
+}
+template#search-hover .content p:last-child{
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--normalblack);
+}
+

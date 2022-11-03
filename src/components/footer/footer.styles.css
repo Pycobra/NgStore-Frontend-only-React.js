@@ -1,0 +1,190 @@
+
+footer{
+    display:flex;
+    justify-content:center;
+    color:white;
+    background-color:var(--normalblack);
+    width: 100%;
+}
+footer .first-side{
+    width:90vw;
+}
+footer .first-side .block1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin:50px 0;
+}
+footer .first-side .block1 .site-logo{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    align-items: center;
+    /* margin:0 20px 40px 0; */
+    color:var(--normalwhite);
+}
+footer .first-side .block1 .site-logo .money{
+    width:40%;
+    text-align: right;
+    font-size: 12px;
+}
+footer .first-side .block1 .site-logo .logo-container{
+    width:60%;
+    display:flex;
+    justify-content:flex-end;
+    text-transform:uppercase;
+    font-family: RoadTest;
+    font-style:oblique;
+    line-height:20px;
+}
+footer .first-side .block1 .site-logo .logo-container a {
+    color:var(--normalwhite);
+    font-weight:700;
+    font-size:23px;
+    font-family: RoadTest;
+    font-style:normal;
+    line-height:20px;
+    letter-spacing:5px;
+    text-align:center;
+    color:var(--normalwhite);
+    position:relative;
+}
+footer .first-side .block1 .site-logo .logo-container a strong {
+    line-height:30px;
+    color:var(--normalwhite);
+}
+footer .first-side .block1 .site-logo .logo-container .shopping-cart {
+    color:#ffffff;
+    position:relative;
+    top:5px;
+}
+footer .first-side .block1 .site-logo .logo-container .star {
+    font-size:10.5px;
+    margin-left:-10px;
+    color:#262525;
+    background-color:var(--normalwhite);
+    border-radius:100px;
+    border:2px solid var(--normalblack);
+    padding:2.5px;
+    position:relative;
+    top:-8px;
+}
+
+footer .first-side .block1 .contact{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    margin-top:50px;
+}
+footer .first-side .contact .box-1{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+footer .first-side .contact .box-1 span{
+    margin:7px;
+}
+footer .first-side .contact .box-1 .service{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin:15px 60px 0 0;
+}
+footer .first-side .contact .box-1 .service span{
+    font-size:var(--footer-big-font);
+    font-weight:700;
+}
+footer .first-side .contact .box-1 .service span:nth-child(2){
+    font-size:var(--footer-small-font);
+}
+footer .first-side .contact .box-1 .others{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-top:15px;
+}
+footer .first-side .contact .box-1 .others .inner-block1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+footer .first-side .contact .box-1 .others .inner-block2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-left:60px;
+}
+
+footer .first-side .contact .box-1 .others span:nth-child(1),
+footer .first-side .contact .box-1 .service span:nth-child(1){
+    font-size:var(--footer-big-font);
+    color:var(--normalwhite);
+    font-weight:700;
+}
+footer .first-side .contact .box-1 .others span,
+footer .first-side .contact .box-1 .service span{
+    font-size:var(--footer-small-font);
+    color:rgb(150, 146, 146);
+}
+
+
+footer .first-side .contact .box-2{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 30%;
+}
+footer .first-side .contact .box-2 p{
+    color: var(--normalwhite);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+footer .first-side .contact .box-2 form{
+    position: relative;
+    width: 100%;
+}
+footer .first-side .contact .box-2 form button{
+    position: absolute;
+    right:0;
+    top: 0px;
+}
+footer .first-side .last-block{
+    font-size: 12px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    margin-top:100px;
+}
+footer .first-side .last-block .box-1{
+    color: var(--normalwhite);
+}
+footer .first-side .last-block span{
+    margin: 10px;
+    letter-spacing: 1px;
+    color:rgb(150, 146, 146);
+}
+footer .first-side .last-block .box-1 span:first-child{
+    color: var(--normalwhite);
+}
+footer .first-side .last-block .box-2{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+

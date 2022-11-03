@@ -1,0 +1,121 @@
+
+template#header-list-hover.header-list-hover-added-class{
+    display: none;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    /* z-index: 20; */
+    /* animation: slideLeftHeaderList 2s ease-in-out 1; */
+}
+template#header-list-hover .content.content-added-class{
+    width: 65%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+    justify-content: center;
+    background-color: var(--normalwhite);
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+template#header-list-hover{
+    display: none;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    /* top: 20vh; */
+    left: 0;
+}
+template#header-list-hover .content{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    background-color: var(--normalwhite);
+    /* border-top: 2px solid var(--lightgrey); */
+    margin-top: 2px;
+}
+template#header-list-hover .content .filler{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+template#header-list-hover .content .filler .cancel{
+    font-size:30px;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid var(--lightgrey);
+    border-radius: 100%;
+}
+template#header-list-hover .block1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+template#header-list-hover .block1 div{
+    margin: 10px 0;
+}
+template#header-list-hover .block2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+}
+template#header-list-hover .block2 .img-block{
+    /* background-image: url('../../Media/fashion/christian-bolt-VW5VjskNXZ8-unsplash.jpg'); */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+template#header-list-hover .block2 img{
+    object-fit:cover;
+    height: 350px;
+    width: 50%;
+    border: 1px solid var(--normalwhite);
+}
+
+@keyframes slideLeftHeaderList {
+    from {transform: translateX(500px);}
+    to  {transform: translateX(0);}
+}
+@keyframes slideRightHeaderList {
+    from {transform: translateX(-1500px);}
+    to  {transform: translateX(0);}
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    template#header-list-hover .block1{
+        width: 100%;
+    }
+    template#header-list-hover .block2{
+        width: 100%;
+        padding: 0 10px 10px 10px;
+    }
+    template#header-list-hover .block2 img{
+        object-fit:cover;
+        height: 350px;
+        width: 49%;
+    }
+}
